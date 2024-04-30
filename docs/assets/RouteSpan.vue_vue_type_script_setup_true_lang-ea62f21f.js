@@ -1,1 +1,0 @@
-import{d as o,o as n,$ as a,a0 as u}from"./index-f320d07b.js";const s=o({__name:"RouteSpan",props:{text:{type:String,required:!0},to:{type:String,required:!0},replace:{type:Boolean,default:!1}},setup(e){return(t,r)=>(n(),a("span",{style:{cursor:"pointer"},onClick:r[0]||(r[0]=l=>e.replace?t.$router.replace(`${e.to}`):t.$router.push(`${e.to}`))},u(e.text),1))}});export{s as _};
