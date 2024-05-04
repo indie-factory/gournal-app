@@ -1,1 +1,0 @@
-import{i as r}from"./request-BDqhCdGj.js";const n=t=>r.get(`/gournals/${t}`),o=t=>r.get(`/gournals?page=${t}`),s=t=>r.post("/gournals",t),e=t=>r.put(`/gournals/${t.id}`,t);export{n as a,s as c,o as g,e as u};
